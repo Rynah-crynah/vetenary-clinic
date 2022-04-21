@@ -1,0 +1,555 @@
+/* body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+} */
+ul{
+    margin:0px;
+    padding: 0px;
+    list-style: none;
+    box-sizing: border-box;
+  
+}
+.container1{
+    background-color:rgb(233,250,252);
+    padding: 40px;
+    margin: -8px;
+    /* width: 100%; */
+    
+ 
+}
+ul li{
+    float: right;
+    width: 120px;
+    text-align: center;
+    font-size: 18px;
+    display: flex; 
+    color: rgb(123,127,138);
+    margin-top: 5px;
+  
+    
+}
+.Header1{
+    font-size: 23px;
+    margin-left: 29px;
+    color: rgb(38,37,54);
+}
+.Header2{
+    font-size: 38px;
+    color: rgb(114, 206, 243);
+    margin-top: -38px;
+    margin-left: 110px;
+}
+.Heading1{
+    margin-left: 32px;
+    margin-top: 60px;
+    color: rgb(248, 115, 66);   
+}
+.Heading2{
+    margin-left: 29px;
+    margin-top: -35px;
+    font-size: 40px;
+    color: rgb(41,40,57);
+}
+.Heading3{
+    margin-left: 29px;
+    margin-top: -25px;
+    color: rgb(149,152,177);
+    font-size: 28px;
+    font-weight: 30px;
+}
+.Heading4{
+    background-color: rgb(29, 179, 238);
+    color: white;
+    margin-left: 29px;
+    border: palegoldenrod;
+    height: 40px;
+    width: 125px;
+    border-radius: 7px;
+    margin-top: 12px;
+    font-size: 20px;
+}
+.Image1{
+    margin-left: 5px;
+    width: 450px;
+    height: 370px;
+}
+.Image{
+    height: 380px;
+    width: 400px;
+    border: 58px solid rgb(207,228,231);
+    margin-left: 650px;
+    margin-top: -350px;
+    border-radius: 600px;
+
+} 
+.Content1{
+    margin-left:85px;
+    margin-top: 120px;
+    font-size: 35px;
+    font-weight: 20px;
+    color: rgb(47,46,62);
+ 
+}
+.Content2{
+    margin-left: 870px;
+    margin-top: -87px;
+    font-size: 20px;
+    color: rgb(133,135,165);
+   
+     
+}
+.container2{
+    margin-top: -10px;
+    /* color: rgb(248,254,255); */
+    background-color: #F8FEFF;
+    /* width: 100%; */
+    padding: 3px;
+    margin: -8px;
+    
+}
+.Container3{
+    display: flex;
+}
+.Radiology{
+    width: 300px;
+    height: 240px;
+    border: 1px solid gainsboro;
+    margin-left: 105px;
+    color: rgb(47,46,62);
+    border-radius: 10px;
+    margin-top: 60px;
+    background-color: rgb(255,255,255);
+}
+.row1{
+    margin-top: 50px;
+    margin-left: 10%;
+}
+.Row1{
+    margin-left: 30px;
+    margin-top: 25px;
+}
+.Row2{
+    margin-left: 30px;
+}
+
+.Ambulance{
+    width: 300px;
+    height: 240px;
+    border: 1px solid gainsboro;
+    margin-left: 80px;
+    color: rgb(47,46,62);
+    border-radius: 10px;
+    margin-top: 60px;
+    background-color: rgb(255,255,255);
+}
+.row1{
+    margin-top: 50px;
+    margin-left: 10%;
+}
+.Dental{
+    width: 300px;
+    height: 240px;
+    border: 1px solid gainsboro;
+    margin-left: 80px;
+    color: rgb(47,46,62);
+    border-radius: 10px;
+    margin-top: 60px;
+    background-color: rgb(255,255,255);
+}
+.row1{
+    margin-top: 50px;
+    margin-left: 10%;
+}
+.Container4{
+    display: flex;
+    margin-bottom: 110px;
+}
+.Surgical{
+    width: 300px;
+    height: 240px;
+    border: 1px solid gainsboro;
+    margin-left: 105px;
+    color: rgb(47,46,62);
+    border-radius: 10px;
+    margin-top: 60px;
+    background-color: rgb(255,255,255);
+}
+.row1{
+    margin-top: 50px;
+    margin-left: 10%;
+}
+.Parturition{
+    width: 300px;
+    height: 240px;
+    border: 1px solid gainsboro;
+    margin-left: 80px;
+    color: rgb(47,46,62);
+    border-radius: 10px;
+    margin-top: 60px;
+    background-color: rgb(255,255,255);
+}
+.row1{
+    margin-top: 50px;
+    margin-left: 10%;
+}
+.Pet{
+    width: 300px;
+    height: 240px;
+    border: 1px solid gainsboro;
+    margin-left: 80px;
+    color: rgb(47,46,62);
+    border-radius: 10px;
+    margin-top: 60px;
+    background-color: rgb(255,255,255);
+}
+.row1{
+    margin-top: 50px;
+    margin-left: 10%;
+}
+.Doc-pic{
+     width: 400px;
+    height: 485px;
+    border: 1px solid gainsboro;
+    margin-left: 107px;
+    color: rgb(47,46,62);
+    border-radius: 10px;
+    margin-top: 95px;
+    background-color: rgb(255,255,255);
+    padding-left: 30px;
+    margin-bottom: -40px;
+    padding-bottom: 30px;
+   
+    
+} 
+.Image3{
+    margin-top: 85px;
+    margin-left: -225px;
+    height: 430px;
+}
+.Container5{
+    display: flex;
+    background-color: rgb(233,250,252);
+    margin: -8px;
+  
+}
+.Best-Vet{
+    margin-top: 50px;
+    margin-left: 95px;
+}
+.Branch1{
+    margin-top: -30px;
+}
+.Branch2{
+    margin-top: -30px;
+}
+.Contact{
+    background-color: rgb(29, 179, 238);
+    color: white;
+    border: palegoldenrod;
+    height: 47px;
+    width: 150px;
+    border-radius: 7px;
+    margin-top: 30px;
+    font-size: 20px;
+       
+}
+ .Content3{
+    margin-left: 100px;
+    margin-top: 125px;
+    font-size: 30PX;
+    color: rgb(47,46,62);
+
+} 
+.Content4{
+    font-size: 20px;
+    margin-left: 700px;
+    margin-top: -90px;
+    color:  rgb(83, 83, 148);
+} 
+.Container6{
+    background-color: rgb(248,254,255);
+    padding: 3px;
+    margin: -8px;
+
+}
+.Container7{
+    background-color: rgb(232,250,253);
+    padding: 3px;
+    margin: -8px;
+  
+}
+.comment1{
+    width: 638px;
+    height: 527px;
+    border: 1px solid gainsboro;
+    color: rgb(47,46,62);
+    margin-top: 60px;
+    margin-left: -10px;
+    background-color: rgb(255,255,255);
+    
+}
+.comment2{
+    width: 653.5px;
+    height: 527px;
+    border: 1px solid gainsboro;
+    margin-left: 644px;
+    color: rgb(47,46,62);
+    margin-top: -200px;
+    background-color: rgb(255,255,255);
+        
+}
+.row3{
+    margin-left: 150px;
+    margin-top: 100px;
+ 
+}
+.row4{
+    margin-left: 150px;
+    
+}
+.row{
+    display: flex;
+   
+   
+}
+.column{
+    background-color: rgb(255,255,255);
+    height: 400px;
+    padding: 40px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 560px;
+    /* text-align: start; */
+   
+}
+.Content5{
+    margin-left: 93px;
+    font-size: 35px;
+    margin-top: 118px;
+
+}
+.Content6{
+    margin-left: 83%;
+    margin-top: -6%;
+    color: rgb(24,159,170);
+    font-size: 18px;
+}
+.column1{
+    /* background-color: rgb(244,240,253); */
+    height: 290px;
+    width: 214px;
+    padding: 35px;
+    border-radius: 10px;
+    margin-left: 8.5%;
+    margin-top: 7.5%;
+    display: flex;
+    
+
+}
+.column2{
+    background-color: rgb(255,245,240);
+    height: 290px;
+    width: 214px;
+    padding: 35px;
+    border-radius: 10px;
+    margin-left: 8.5%;
+    margin-top: 7.5%;
+    display: flex;
+    
+
+}
+
+
+
+.Doc1{
+    background-color: rgb(227,252,253);
+    height: 360px;
+    margin-left: -40px;
+    margin-top: -35px;
+}
+.doc2{
+    display: flex;
+    padding: 3px;
+    margin: -8px;
+}
+.Doc2{
+    background-color: rgb(244,240,253);
+    height: 365px;
+    margin-left: -55px;
+    margin-top: -40px;
+} 
+.Doc3{
+   
+    height: 360px;
+    margin-left: -263px;
+    margin-top: -35px;
+
+}
+.Container9{
+    display: flex;
+}
+.Content7{
+    margin-left: 8.5%;
+}
+.Content8{
+    margin-left: 15.5%;
+}
+.Content9{
+    margin-left: 21%;
+}
+.identity1{
+    font-size: 20px;
+}
+.identity2{
+    font-size: 20px;
+    margin-top: -10%;
+}
+.Container8{
+    background-color: rgb(248,254,255);
+    margin-top: -10px;
+    padding: 3px;
+    margin: -8px;
+    
+}
+.Container9{
+    background-color: rgb(248,254,255);
+    margin-top: -10px;
+    padding: 3px;
+    margin: -8px;
+
+}
+.Box1{
+    width: 86%;
+    height: 365px;
+    border: 1px solid gainsboro;
+    margin-top: 9%;
+    margin-left: 6%;
+    background-color: rgb(233,250,252);
+    border-radius: 12px;
+}
+.text{
+    font-size: 40px;
+    text-align: center;
+    margin-top: 100px;
+}
+.Box2{
+    width: 64%;
+    height: 100px;
+    border: 1px solid gainsboro;
+    margin-top: -15%;
+    margin-left: 17%;
+    background-color: rgb(255,255,255);
+    border-radius: 10px;
+
+}
+.Box3{
+    width: 14%;
+    height: 65px;
+    border: 1px solid gainsboro;
+    margin-top: -6.5%;
+    margin-left: 66%;
+    background-color: rgb(26,160,171);
+    border-radius: 10px;
+
+}
+.Content10{
+    margin-left: 69%;
+    margin-top: -7%;
+    font-size: 30px;
+    color: rgb(234,246,248);
+}
+.Content11{
+    margin-left: 21%;
+    margin-top: -5.5%;
+    font-size: 30px;
+    color: rgb(116,117,151);
+}
+.Container10{
+    background-color: rgb(248,254,255);
+    margin-top: -10px;
+    padding: 3px;
+    margin: -8px;
+  
+    
+}
+.Container15{
+    margin-top: 70px;
+}
+.Content12{
+    display: flex;
+    margin-top: 15%;
+}
+.Header5{
+    font-size: 23px;
+    margin-left: 39%;
+    color: rgb(38,37,54);
+    margin-top: 70%;
+}
+.Header6{
+    font-size: 38px;
+    color: rgb(114, 206, 243);
+    margin-bottom: 50%;
+    margin-left: 155px;
+}
+.footer{
+    display: flex;
+    background-color:rgb(248,254,255);
+    /* margin-top: 100px; */
+    /* margin-top: 15px; */
+    /* padding: 5px; */
+    margin: -8px;
+    margin-top: 10%;
+}
+
+.yourpet {
+    margin: 30px;
+    /* padding: 20px; */
+    margin-left: 70px;
+    font-size: 20px;
+    color: #28425e;
+    font-weight: 20px;
+}
+.product{
+    margin: 30px;
+    /* padding: 20px; */
+    font-size: 20px;
+    color: #28425e;
+    margin-left: 70px;
+    font-weight: 20px;
+}
+.community{
+    margin: 30px;
+    /* padding: 20px; */
+    font-size: 20px;
+    color: #28425e;
+    margin-left: 170px;
+    font-weight: 20px;
+}
+.about{
+    margin: 30px;
+    /* padding: 20px; */
+    font-size: 20px;
+    color: #28425e;
+    margin-left: 140px;
+    font-weight: 20px;
+}
+
+.icons{
+    margin: 10px;
+    padding-right: 5px;
+    color: rgb(17, 3, 1);
+}
+h6{
+    color: black;
+    font-size: 23px;
+    margin-bottom: 40px;
+}
+
+
+
+
+
+
+
+
